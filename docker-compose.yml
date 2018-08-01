@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  client:
+    build: ./client
+    container_name: jackass-client
+    ports:
+      - '4200:4200'
+    depends_on:
+      - api
+    volumes:
+     - ./client/src:/www/src
+    environment:
+      NODE_ENV: development
+
+  api:
+    build: ./api
+    container_name: jackass-api
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./api/src:/www/src
+

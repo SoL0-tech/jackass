@@ -1,0 +1,77 @@
+/* Structure */
+.container {
+  position: relative;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 20px 20px 20px 20px;
+}
+
+.table-container {
+  position: relative;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+
+.loading-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Messages */
+.error-message {
+  color: #980000;
+  max-width: 360px;
+  text-align: left;
+}
+
+.success-message {
+  color: #228B22;
+  max-width: 360px;
+  text-align: left;
+}
+
+/* Divs and Form */
+.heading {
+  text-align: center;
+}
+
+.spacer {
+  margin-top: 60px;
+}
+
+.instructions {
+  font-size: 20px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+
+.recursive-slider {
+  margin-right: 20px;
+}
+
+.reset-button {
+  margin-right: 10px;
+}
+
+
+/* Table */
+.mat-column-number,
+.mat-column-state {
+  max-width: 64px;
+}
+
+.mat-column-created {
+  max-width: 124px;
+}

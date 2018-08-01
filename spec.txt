@@ -1,0 +1,15 @@
+1.) Develop a Node.JS restful api that allows a client app to:
+
+Obtain the full directory listing of a given directory path on the local filesystem. 
+Include the full path, file size and attribute information in the result and cater for a 
+large directory size ( at least 100 000).
+
+Make sure the application is containerized and can run on any system.
+
+2.) Build a Angular 6 client and can call the api and display the results. It does not have to be fancy, you can use frameworks like bootstrap to display the data.
+
+3.) Try and stay away from imperative style coding as much as possible. Stream is you partner.
+
+Submit this work on a github repo and share the repo.
+
+Good luck.
